@@ -12,7 +12,7 @@
 version: '2'
 services:
     gitlab:
-      image: 'fjcanyue/gitlab-ce-zh:11.11.8'
+      image: 'fjcanyue/gitlab-ce-zh:latest'
       restart: unless-stopped
       hostname: 'gitlab.example.com'
       environment:
