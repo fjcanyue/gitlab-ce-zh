@@ -4,6 +4,12 @@
 
 # 使用
 
+## 打包
+
+```
+docker build -t "gitlab-ce-zh:11.11.8" .
+```
+
 ## 使用 Docker Compose
 
 在原Docker Compose中替换image行即可，如：
