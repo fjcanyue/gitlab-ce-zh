@@ -52,3 +52,7 @@ volumes:
 ```
 docker exec -it <your_gitlab_name> update-permissions
 ```
+
+## 升级顺序
+
+-> 11.11.8 -> 12.0.12 -> 12.10.x
