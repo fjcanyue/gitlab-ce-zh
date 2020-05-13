@@ -1,4 +1,5 @@
-FROM gitlab/gitlab-ce:11.11.8-ce.0 as production
+FROM gitlab/gitlab-ce:11.11.8-ce.0
+LABEL maintainer="Shen Shan <fjcanyue@hotmail.com>"
 
 RUN set -xe \
     && export DEBIAN_FRONTEND=noninteractive \
