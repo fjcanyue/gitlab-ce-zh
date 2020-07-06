@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-ce:12.10.3-ce.0
+FROM gitlab/gitlab-ce:12.10.13-ce.0
 LABEL maintainer="Shen Shan <fjcanyue@hotmail.com>"
 
 RUN set -xe \
@@ -11,6 +11,6 @@ RUN set -xe \
 ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8
 ENV TZ=Asia/Shanghai
 
-ENV GITLAB_VERSION=v12.10.3
+ENV GITLAB_VERSION=v12.10.13
 ENV GITLAB_DIR=/opt/gitlab/embedded/service/gitlab-rails
-ENV GITLAB_GIT_COMMIT_UPSTREAM=v12.10.3
+ENV GITLAB_GIT_COMMIT_UPSTREAM=v12.10.13
